@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394534000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Visit the facebook URL",
+            "match": {
+              "location": "firststepdefinitionclass.visit_the_facebook_URL()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-30T07:37:46.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1862015500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.initialization()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Facebook User Login with invalid credentials",
+        "description": "",
+        "id": "facebook-login;facebook-user-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1044620000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.termination()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 249632400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Login credentials \"abcdef\" and \"12345\" are entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 36
+                }
+              ],
+              "location": "firststepdefinitionclass.user_Login_credentials_and_are_entered(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93555000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Login should be unsuccessful",
+            "match": {
+              "location": "firststepdefinitionclass.login_should_be_unsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1291787400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Visit the facebook URL",
+            "match": {
+              "location": "firststepdefinitionclass.visit_the_facebook_URL()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-30T07:37:50.659Z",
+        "before": [
+          {
+            "result": {
+              "duration": 990325700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.initialization()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Facebook User Login with invalid credentials",
+        "description": "",
+        "id": "facebook-login;facebook-user-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 953869600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.termination()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 182408200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Login credentials \"asdfgh\" and \"24680\" are entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdfgh\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"24680\"",
+                  "offset": 36
+                }
+              ],
+              "location": "firststepdefinitionclass.user_Login_credentials_and_are_entered(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76498100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Login should be unsuccessful",
+            "match": {
+              "location": "firststepdefinitionclass.login_should_be_unsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1308621200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Visit the facebook URL",
+            "match": {
+              "location": "firststepdefinitionclass.visit_the_facebook_URL()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-30T07:37:54.156Z",
+        "before": [
+          {
+            "result": {
+              "duration": 838686400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.initialization()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Facebook User Login with invalid credentials",
+        "description": "",
+        "id": "facebook-login;facebook-user-login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1297794100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.termination()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 265115700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Login credentials \"qwerty\" and \"13579\" are entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qwerty\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"13579\"",
+                  "offset": 36
+                }
+              ],
+              "location": "firststepdefinitionclass.user_Login_credentials_and_are_entered(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103840900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Login should be unsuccessful",
+            "match": {
+              "location": "firststepdefinitionclass.login_should_be_unsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene2"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login",
+    "description": "  I want to navigate to facebook page,login using my user credentials and homepage should appear",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/firstfeaturefile.feature",
+    "tags": []
+  }
+]

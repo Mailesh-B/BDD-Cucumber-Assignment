@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="11.959854">
+    <testcase classname="Facebook Login" name="Facebook User Login with invalid credentials" time="4.650022">
+        <system-out><![CDATA[Given Visit the facebook URL................................................passed
+When User Login credentials "abcdef" and "12345" are entered................passed
+Then Login should be unsuccessful...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook Login" name="Facebook User Login with invalid credentials 2" time="3.49534">
+        <system-out><![CDATA[Given Visit the facebook URL................................................passed
+When User Login credentials "asdfgh" and "24680" are entered................passed
+Then Login should be unsuccessful...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook Login" name="Facebook User Login with invalid credentials 3" time="3.814492">
+        <system-out><![CDATA[Given Visit the facebook URL................................................passed
+When User Login credentials "qwerty" and "13579" are entered................passed
+Then Login should be unsuccessful...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
